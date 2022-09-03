@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex">
+    <title>Home-page</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="style.css">
+    <style>
+        /* styling navlist */
+        
+        #navlistt {
+            background-color: #0074D9;
+            position: absolute;
+            width: 100%;
+        }
+        /* styling navlist anchor element */
+        
+        #navlist a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 12px;
+            text-decoration: none;
+            font-size: 12px;
+        }
+        
+        .navlist-right {
+            float: right:9%;
+			Padding:
+			 
+        }
+        /* hover effect of navlist anchor element */
+        
+        #navlist a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        /* styling search bar */
+        
+        .search input[type=text] {
+            width: 300px;
+            height: 25px;
+            border-radius: 25px;
+            border: none;
+        }
+        
+        .search {
+                padding-left: 5%;
+                padding-right: 5%;
+        }
+        
+        .search button {
+		 color: white;
+	background-color:#874b27;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+    width:60%;
+    float: right;
+    padding: 5px 10px;
+    font-size: 22px;
+    border: none;
+    cursor: pointer;
+        }
+		
+/* Styles for wrapping the search box */
+
+.main {
+    width: 100%;
+    margin: 30px auto;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+@media only screen and (max-width: 1024px ) {
+  .search-result{
+ border-bottom:solid 1px #BDC7D8;
+ padding:30px;
+ font-family:arial;
+ font-size: 16px;color:green; 
+}
+
+.error{
+ border-bottom:solid 1px #BDC7D8;
+ padding:30px;
+ font-family:arial;
+ font-size: 16px;color:red; 
+}
+
+
+/* Styles for wrapping the search box */
+
+.main {
+    width: 100%;
+    margin: 100px auto;
+    
+}
+.cols{
+    color: white;
+	background-color:#874b27;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+    
+}
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+    width: 100%;
+    height: 70%;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 3.375rem;
+    line-height: 3.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+    font-size:40px;
+}
+
+}
+    </style>
+
+</head>
+
+<body>
+
+    <header id="header" class="cf">
+	
+        <div class="container">
+		
+		<a class="navbar-brand" href="#"><img src="./img/logo2.png" alt="" width="160px" height="140px"></a>
+            
+            <nav id="nav">
+                <ul>
+                    <li><a href="#" class="active">Accueil</a></li>
+                    <li><a href="#">Salons</a></li>
+                    <li><a href="#">Mes coupes</a></li>
+                    <li><a href="#">Tarifs</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <div id="banner">
+
+        <div class="search">
+
+            <div class="container">
+
+
+
+                <form action="#">
+
+                    <div class="block_div" >
+
+                        <div class=" col " style="margin-top: 5px; margin-left: 25px;width:30%" align="left ">
+
+                            <label style="color:#000"  for="ville"><strong>O&ugrave;?</strong></label>
+                            <br>
+
+                            <input style="font-size:20px; border:none" type="text " name="ville" id=" " placeholder="Ville, addresse du salon... ">
+
+                        </div>
+                        <div class="col " style="margin-top: 5px; margin-left: 5px;width:30%" align="left " >
+
+
+                            <label style="color:#000"  for="prestation"><strong>Prestation</strong></label><br>
+                            <input type="text " style="font-size:20px; border:none" name="prestation" id=" " placeholder="Soins, coupe... ">
+
+                        </div>
+                        <div class="col " style="margin-top: 5px;width:30% " align="left ">
+
+                            <label style="color:#000" for=" "><strong>Nom du salon</strong></label><br>
+                            <select name=" " style="font-size:20px; border:none">
+                                    <option value="Nom du salon ">Nom du salon</option>
+                                </select>
+
+
+                        </div>
+
+<div class="cols" style="margin-top: 0;width:10% " align="left" style="background:#874b27;">
+                        <button> 
+                                <i class="fa fa-search "
+                                    style="font-size: 18px; "><img width="100px" src="img/search3.png"/>
+                                </i>
+                            </button>
+</div>
+                    </div>
+
+
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <article id="who-we-are">
+            <div class="container">
+                <article id="testimonials" class="cf">
+                    <div class="container">
+                        <div class="acti">
+                            <h2>COIFFEURS, BARBIERS, INSTITUTS DE BEAUTÉ </h2>
+                        </div>
+
+                        <h2 class="active2">DÉCOUVREZ NOS PROFESSIONNELS ET LEURS PRESTATIONS</h2>
+                        <div class="col col-1">
+                            <div id="divpc">
+                                <img src=".//img/barbier.jpg" alt="">
+
+                                <p>Au salon de Laurent</p>
+                                <p class="author"><strong>Barbier</strong></p>
+                            </div>
+                        </div>
+                        <div class="col col-2">
+                            <div id="divpc">
+                                <img src=".//img/coups.jpg" alt="">
+                                <p>Honoré coiffure</p>
+                                <p class="author"><strong>Coiffeur</strong></p>
+                            </div>
+
+                        </div>
+                        <div class="col col-3">
+                            <div id="divpc">
+                                <img src=".//img/institue de beauté.jpg" alt="">
+                                <p>Emilie à Paris</p>
+                                <p class="author"><strong>Instutut de beauté</strong></p>
+                            </div>
+
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </article>
+    </footer>
+
+    <footer>
+        <div class="cent">
+            <span class="active3">COMMENT ÇA MARCHE ?</span>
+        </div>
+        <!-- div container  -->
+        <div class="container">
+            <div class="block_div">
+
+                <div class="col col-1">
+                    <div class="row">
+                        <a href="#">
+                            <h2 class="span_display"><span class=" circle">1</span></h2><br>
+                        </a>
+                        <p class="span_display">
+                            <strong>RÉSERVEZ VOTRE</strong><br>
+                            <strong>RENDEZ-VOUS BEAUTÉ EN</strong><br>
+                            <strong>LIGNE EN 45 SECONDES</strong>
+                        </p>
+
+                    </div>
+
+                </div>
+                <div class="col col-2">
+                    <div class="row">
+                        <a href="#">
+                            <h2 class="span_display"><span class=" circle">2</span></h2><br>
+                        </a>
+
+                        <p class="span_display">
+                            <strong>ENREGISTREZ ET</strong><br>
+                            <strong>PARTAGER VOS COUPES SUR</strong><br>
+                            <strong>UNE MÊME APPLICATION</strong>
+                        </p>
+
+                    </div>
+
+                </div>
+                <div class="col col-3">
+                    <a href="#">
+                        <h2 class="span_display"><span class=" circle">3</span></h2><br>
+                    </a>
+
+                    <p class="span_display">
+                        <strong>ACCÉDEZ AUX ÉVÉNEMENTS ET</strong><br>
+                        <strong>À LA COMMUNAUTÉ DE VOS</strong><br>
+                        <strong>SALONS FAVOUS</strong>
+                    </p>
+
+
+
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <footer class="id">
+        <div class="wrapperr">
+            <div class="titlee">
+                <span>Enregistrez vous dès aujourd'hui</span>
+            </div>
+            <form action="#">
+                <div class="fieldd">
+                    <input type="text" required>
+                    <label>Nom</label>
+                </div>
+                <div class="fieldd">
+                    <input type="text" required>
+                    <label>Email</label>
+                </div>
+                <div class="contentt">
+                    <div class="checkboxx">
+                        <input type="checkboxx" id="remember-mee">
+                        <label for="remember-mee">Remember me</label>
+                    </div>
+                </div>
+                <div class="fieldd">
+                    <a href="#"><input type="submit" value="Inscription"></a>
+                </div>
+            </form>
+        </div>
+    </footer>
+
+    <footer id="footer4">
+        <div class="container">
+            <div class="container">
+                <span class="active3">VOUS ÊTES UN PROFESSIONNEL?</span><br>
+            </div>
+            <div>
+                <br>
+                <p class="span_display_black"> <strong class=>REJOIGNEZ CAPILOO POUR DÉVELOPPER VOTRE SALON </strong></p>
+                <ul class="act">
+                    <li><span class="span_display">Gagnez du temps avec la prise de rendez-vous en ligne</span>
+                    </li>
+                    <li><span class="span_display">Boostez votre visibilité en partageant votre travail sur les réseaux sociaux</span>
+                    </li>
+                    <li><span class="span_display">Fidelisez vos clients en créant une communauté engagée</span>
+                    </li>
+                </ul>
+                <br/>
+            </div>
+            <div class="div_diplay">
+                <div id="divleft">
+                    <span class="span_display"><a href="#">AJOUTER VOTRE SALON</a></span>
+                </div>
+                <div id="divright">
+                    <span class="span_display"><a href="#">CRÉEZ UN EVENEMENT</a></span>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </footer>
+    <footer id="footer3">
+        <div class="siz">
+            <h4>JEREMIE de Cotonou et JOHN de DENVERS a propos de CAPILOO:</h4>
+        </div>
+
+        <div class="fot">
+            <p>JEREMIE</p> <img src=".//img/star5.PNG" alt="" width="45%">
+            <p class="author"><strong>Une tres belle Plateforme</strong></p>
+        </div>
+        <div class="fot2">
+            <p>JOHN DENVER</p><img src=".//img/star4.PNG" alt="" width="40%">
+            <p class="author"><strong>Wow!!! Life saving platform</strong></p>
+        </div>
+    </footer>
+    <footer id="footer2">
+        <p><a href="#">&nbsp; &nbsp; &nbsp; A propos &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Politique de confidentialite &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; FAQ</a></p>
+    </footer>
+    <footer id="footer">
+        <img src=".//img/icon face.png" alt="" width="20px"> <img src=".//img/icon insta.png" alt="" width="20px">
+    </footer>
+
+
+
+</body>
+
+</html>
